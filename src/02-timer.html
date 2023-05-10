@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown timer</title>
+    <link rel="stylesheet" href="css/common.scss" />
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+<form class="newForm badge text-bg-info" data-action="start">
+  <input type="text" id="datetime-picker" />
+    <button class="btn btn-secondary" type="button " data-start>start</button>
+</form>
+    <div class="timer container text-center ">
+      
+      <div class=" row row-cols-auto ">
+
+        <div class="field row p-3 g-2">
+          <span class="value badge bg-secondary mx-auto p-2" data-days>00</span>
+          <span class="label badge text-bg-info">Days</span>
+        </div>
+
+        <div class="field row p-3 g-2">
+          <span class="value badge bg-secondary mx-auto p-2" data-hours>00</span>
+          <span class="label badge text-bg-info">Hours</span>
+        </div>
+
+        <div class="field row p-3 g-2">
+          <span class="value badge bg-secondary mx-auto p-2" data-minutes>00</span>
+          <span class="label badge text-bg-info">Minutes</span>
+        </div>
+
+        <div class="field row p-3 g-2">
+          <span class="value badge bg-secondary mx-auto p-2" data-seconds>00</span>
+          <span class="label badge text-bg-info">Seconds</span>
+        </div>
+      
+      </div>
+
+    </div>
+   
+
+
+    <script src="js/02-timer.js" type="module"></script>
+  </body>
+</html>
